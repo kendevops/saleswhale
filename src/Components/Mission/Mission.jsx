@@ -32,7 +32,7 @@ const Mission = () => {
           If you are excited by our vision of the future, and want to solve
           meaningful problems, talk to us!
         </p>
-        <a href="#">Join </a>
+        <a href="#">Join the team</a>
       </div>
     </section>
   );
