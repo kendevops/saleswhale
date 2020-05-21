@@ -1,10 +1,14 @@
 import React from "react";
+import Details from "./Details";
 
 const Timeline = () => {
   return (
-    <div>
-      <h1>Timeline</h1>
-    </div>
+    <section>
+      <h1>Our Progress</h1>
+      <div>
+        <Details />
+      </div>
+    </section>
   );
 };
 
