@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Styles from "./Mission.module.css";
 import Culture from "./Culture";
@@ -18,13 +19,20 @@ const Mission = () => {
           description="We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users."
         />
         <Culture
-          name="Building for the future"
-          description="We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users."
+          name="Promoting trust & transparency"
+          description="We remain completely open, honest and transparent with everyone. This has allowed us to build strong relationships with each other."
         />
         <Culture
-          name="Building for the future"
-          description="We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users."
+          name="Achieving our very best"
+          description="We believe the success of the company lies within our employees and we constantly challenge each other to learn and level up."
         />
+      </div>
+      <div className={Styles.join}>
+        <p>
+          If you are excited by our vision of the future, and want to solve
+          meaningful problems, talk to us!
+        </p>
+        <a href="#">Join </a>
       </div>
     </section>
   );
