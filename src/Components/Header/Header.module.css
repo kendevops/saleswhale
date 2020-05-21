@@ -5,12 +5,14 @@
   padding: 38px 100px;
 }
 
+/* Design for the Nav */
 .navBar {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
   line-height: 23px;
   font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .logo {
@@ -60,9 +62,26 @@
   padding: 8px 30px;
   border-radius: 5px;
   text-decoration: none;
-
-  /* identical to box height */
   text-align: center;
-
   color: #ffffff;
+  margin-right: 18px;
+}
+
+/* End of Nav Design */
+
+/* Hero Image */
+.hero {
+  padding: 60px 0;
+}
+
+.heroImage {
+  border-radius: 10px;
+}
+
+/* End Hero Image */
+
+/* Header Text Section */
+.headerText {
+  display: flex;
+  justify-content: space-between;
 }
