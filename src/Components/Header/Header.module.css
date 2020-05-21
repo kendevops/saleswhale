@@ -1,0 +1,68 @@
+.header {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-size: 18px;
+  padding: 38px 100px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 186px;
+  height: 32px;
+}
+
+.nav {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 8px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Rich Blue Black */
+
+  color: #002240;
+}
+
+.list {
+  padding-left: 48px;
+}
+
+.link {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.login {
+  border: 1px solid #0688fa;
+  border-radius: 10%;
+  text-align: center;
+  padding: 8px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+
+  /* Primary Blue */
+
+  color: #0688fa;
+}
+
+.demo {
+  background: #0688fa;
+  mix-blend-mode: normal;
+  padding: 8px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
