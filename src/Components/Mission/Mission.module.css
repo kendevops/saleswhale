@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
+/* Mission container styling */
 .container {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   padding: 110px;
 }
 
+/* End of Mission Container styling */
+
+/* Heading Text Styling */
 .heading {
   text-align: center;
   padding-top: 80px;
@@ -30,6 +34,9 @@
   color: #537089;
 }
 
+/* End Heading Text Styling */
+
+/* Culture Component Styling */
 .cultures {
   display: flex;
   justify-content: center;
@@ -59,6 +66,9 @@
   height: 121px;
 }
 
+/* End Culture Component Styling */
+
+/* Text and Join a Team styling */
 .join {
   text-align: center;
 }
@@ -84,3 +94,5 @@
   line-height: 23px;
   text-decoration: none;
 }
+
+/* End of Text and Join a Team styling */
