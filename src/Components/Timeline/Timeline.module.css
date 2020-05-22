@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+.timeline {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 118px 118px 77px;
+}
+
+.timeline h1 {
+  margin: 64px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  color: #002240;
+}
+
+.container {
+  padding: 120px;
+  background: #eff8ff;
+  border-radius: 5px;
+  /* margin: 0 118px; */
+  padding: 0 120px;
+}
+
+li {
+  list-style: none;
+}
+
+.detail {
+  display: flex;
+}
+
+.detail span {
+  padding: 120px 80px 0 0;
+  font-weight: bold;
+  font-size: 26px;
+  color: #0688fa;
+}
+
+.info {
+  width: 100%;
+  border-left: 3px solid #0688fa;
+  position: relative;
+  padding: 120px 0 40px 80px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  color: #002240;
+}
+
+.info:before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  background: #ffffff;
+  background-image: url("../../img/envelops.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  left: -40px;
+  top: 105px;
+}
