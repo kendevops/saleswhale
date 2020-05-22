@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 79px 0 67px 0;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+.cardDetails {
+  width: 528px;
+  height: 283px;
+  margin-right: 80px;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.cardDetails img {
+}
+
+.cardDetails h2 {
+}
+
+.cardDetails h4 {
+}

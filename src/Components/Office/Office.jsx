@@ -1,9 +1,15 @@
 import React from "react";
+import Styles from "./Office.module.css";
+import Cards from "./Cards";
 
 const Office = () => {
   return (
-    <div>
-      <h1>Office</h1>
+    <div className={Styles.container}>
+      <h1>Our Offices</h1>
+      <div className={Styles.cards}>
+        <Cards />
+        <Cards />
+      </div>
     </div>
   );
 };
