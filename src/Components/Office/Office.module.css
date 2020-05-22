@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
+/* Office Container styling */
 .container {
   width: 100%;
   font-family: "Source Sans Pro", sans-serif;
@@ -16,7 +17,9 @@
   letter-spacing: 0.01em;
   color: #002240;
 }
+/* End of Office Container styling */
 
+/* General Card Styling */
 .cards {
   display: flex;
   align-items: center;
@@ -24,6 +27,9 @@
   margin-bottom: 104px;
 }
 
+/* End of General Card Styling */
+
+/* Inner Card Styling */
 .cardDetails {
   width: 528px;
   margin-right: 80px;
@@ -64,3 +70,4 @@
   text-align: center;
   color: #002240;
 }
+/* End Inner Card Styling */
