@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+/* Styling the whole component */
 .timeline {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
@@ -18,14 +20,19 @@
   color: #002240;
 }
 
+/* End of Styling the whole component */
+
+/* Styling the Details component container */
 .container {
   padding: 120px;
   background: #eff8ff;
   border-radius: 5px;
-  /* margin: 0 118px; */
   padding: 0 120px;
 }
 
+/* End Styling the Details component container */
+
+/* Styling the Details component */
 li {
   list-style: none;
 }
@@ -65,3 +72,5 @@ li {
   left: -40px;
   top: 105px;
 }
+
+/* End of Styling the Details component */
