@@ -1,12 +1,11 @@
 import React from "react";
-import Ylogo from "../../img/YC logo.png";
 
 import Styles from "./Investors.module.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className={Styles.cardDetail}>
-      <img src={Ylogo} alt="Y Combinator Logo" />
+      <img src={props.image} alt={props.alt} />
     </div>
   );
 };

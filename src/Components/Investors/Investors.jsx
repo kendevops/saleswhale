@@ -11,10 +11,10 @@ const Investor = () => {
     <div className={Styles.container}>
       <h1>Our Investors</h1>
       <div className={Styles.card}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card image={Ylogo} alt="Y Combinator Logo" />
+        <Card image={Mlogo} alt="Monk's Hill Logo" />
+        <Card image={Slogo} alt="Strive Logo" />
+        <Card image={Wlogo} alt="Wave Maker Logo" />
       </div>
     </div>
   );
