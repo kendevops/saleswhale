@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+.container {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  padding: 31px 61px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #329dfa;
+  border-radius: 5px;
+}
+
+.card h1 {
+  margin-top: 125px;
+  margin-bottom: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card div {
+  margin-top: 17px;
+  margin-bottom: 121px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+div .demo {
+  color: #002240;
+  padding: 24px 74px;
+  text-decoration: none;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+div .cases {
+  padding: 24px 74px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
