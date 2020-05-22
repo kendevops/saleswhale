@@ -7,7 +7,9 @@ const Cards = (props) => {
     <div className={Styles.cardDetails}>
       <img src={image} alt="sinon" />
       <h2>Singapore</h2>
-      <h4>155B Telok Ayer Street Singapore, 068611</h4>
+      <div>
+        <h4>155B Telok Ayer Street Singapore, 068611</h4>
+      </div>
     </div>
   );
 };
