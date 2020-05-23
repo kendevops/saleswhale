@@ -80,17 +80,26 @@
 .social li {
   display: inline-block;
   margin: 0 15px;
-  padding: 0;
+}
+
+.social li .facebook {
+  background: #35589d;
+  border-radius: 100%;
+  padding: 5px 12px;
+}
+.social li .twitter {
+  background: #5da8dc;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+.social li .linkedin {
+  background: #337bb1;
+  border-radius: 100%;
+  padding: 5px 10px;
 }
 .social li a {
   color: #fff;
 }
 .social li a:hover {
   color: #11abb0;
-}
-
-/* Wave */
-.wave {
-  content: "";
-  width: 100%;
 }

@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import image from "../../img/sw-logo-full.png";
+import "font-awesome/css/font-awesome.min.css";
+
 import List from "./List";
 
 import Styles from "./Footer.module.css";
@@ -68,28 +70,23 @@ const Footer = () => {
         <div className={Styles.icons}>
           <ul className={Styles.social}>
             <li>
-              <a href="#">
+              <a href="#" className={Styles.facebook}>
                 <i className="fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className={Styles.twitter}>
                 <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className={Styles.linkedin}>
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
-      {/* <div className={Styles.wave}>
-        <div>Here</div>
-        <div>There</div>
-        <div>We are</div>
-      </div> */}
     </div>
   );
 };
