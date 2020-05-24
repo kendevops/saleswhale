@@ -154,4 +154,25 @@
 }
 
 @media screen and (max-width: 320px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .foot {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 39px;
+    padding-bottom: 35px;
+  }
+  .foot .terms h3 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .foot .terms p {
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
