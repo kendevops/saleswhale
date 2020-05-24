@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
 .container {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
@@ -23,10 +24,9 @@
 }
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-auto-flow: dense;
   padding: 0 72px 0 72px;
 }
 
@@ -34,14 +34,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 528px;
+  max-width: 528px;
   height: 283px;
   background: #ffffff;
   border: 1px solid #e5e5e5;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
-  padding: 100px;
-  margin-right: 80px;
-  margin: 0 40px;
-  margin-bottom: 67px;
+  padding: cal(100% /2);
+  margin: 0 40px 67px 40px;
+}
+
+.cardDetail img {
+  max-width: 100%;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .cardDetail {
+    padding: 50px;
+  }
 }
