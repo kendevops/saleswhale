@@ -59,11 +59,7 @@
 
   .cardDetail {
     padding: 44px 24px 39.79px 28px;
+    max-width: 272px;
     height: 145.79px;
-  }
-
-  .cardDetail img {
-    max-width: 100%;
-    margin: 0;
   }
 }
