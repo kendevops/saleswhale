@@ -27,12 +27,7 @@
   text-decoration: none;
   list-style: none;
   padding-top: 8px;
-  /* identical to box height */
-
   text-align: center;
-
-  /* Rich Blue Black */
-
   color: #002240;
 }
 
@@ -78,6 +73,7 @@
 
 .heroImage {
   border-radius: 10px;
+  max-width: 100%;
 }
 
 /* End Hero Image */

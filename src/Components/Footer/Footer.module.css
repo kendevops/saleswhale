@@ -2,6 +2,7 @@
 
 .container {
   font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 0 0 100px;
@@ -15,6 +16,7 @@
 
 .listItem {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .list {
@@ -33,11 +35,7 @@
 .address {
   display: flex;
   flex-direction: column;
-}
-
-.address div:first-child {
-  /* margin-top: 87px; */
-  padding: 0;
+  justify-content: center;
 }
 
 .address div {

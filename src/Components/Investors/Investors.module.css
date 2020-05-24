@@ -3,11 +3,16 @@
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
   text-align: center;
+  background-image: url("../../img/slide2.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  /* border-top: 1px solid transparent; */
 }
 
 .container h1 {
   text-align: center;
-  margin: 67px;
+  padding: 67px;
   font-style: normal;
   font-weight: bold;
   font-size: 58px;
@@ -18,8 +23,10 @@
 }
 
 .card {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 0 72px 0 72px;
 }
 
@@ -27,11 +34,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 528px;
+  height: 283px;
   background: #ffffff;
   border: 1px solid #e5e5e5;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   padding: 100px;
+  margin-right: 80px;
   margin: 0 40px;
   margin-bottom: 67px;
 }
