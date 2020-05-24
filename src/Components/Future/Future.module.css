@@ -54,3 +54,32 @@ div .cases {
   border: 1px solid #fff;
   border-radius: 5px;
 }
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .container {
+  }
+
+  .card {
+    padding: 20px 20px 22px 24px;
+  }
+
+  .card h1 {
+    margin-top: 58.63px;
+    margin-bottom: 15.48px;
+    font-size: 28px;
+  }
+
+  .card div {
+    margin-bottom: 58px;
+  }
+
+  div .demo {
+    padding: 12px 11px 14px 11px;
+    margin-right: 12px;
+  }
+
+  div .cases {
+    padding: 12px 11px 14px 11px;
+  }
+}
