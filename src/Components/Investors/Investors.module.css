@@ -62,4 +62,34 @@
     max-width: 272px;
     height: 145.79px;
   }
+
+  .card {
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    border: 2px solid;
+  }
+
+  .container h1 {
+    margin: 39px 26px 0 24px;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 28px;
+    line-height: 31px;
+  }
+
+  .card {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 0;
+  }
+
+  .cardDetail {
+    max-width: 272px;
+    height: 145.76px;
+    padding: cal(100% /2);
+    margin: 0 26px 40.21px 22px;
+  }
 }
