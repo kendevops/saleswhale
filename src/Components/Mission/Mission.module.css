@@ -156,6 +156,85 @@
     padding: 14px 21px;
     font-size: 16px;
     line-height: 20px;
-    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 100%;
+    padding: 36px 24px;
+    border: 2px solid;
+  }
+
+  /* End of Mission Container styling */
+
+  /* Heading Text Styling */
+  .heading {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .heading h1 {
+    margin-bottom: 7px;
+    font-size: 28px;
+    line-height: 31px;
+  }
+
+  .heading h3 {
+    height: 91px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+  }
+
+  /* End Heading Text Styling */
+
+  /* Culture Component Styling */
+  .cultures {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .card {
+    width: 100%;
+    padding: 27px 0 0 0;
+  }
+
+  .card img {
+    padding: 10px 0;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    line-height: 24px;
+    height: 17px;
+  }
+
+  .card p {
+    font-size: 16px;
+    height: 87px;
+    padding-top: 0;
+  }
+
+  /* End Culture Component Styling */
+
+  /* Text and Join a Team styling */
+  .join {
+    text-align: left;
+  }
+
+  .join p {
+    height: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 22px 0 20px 0;
+  }
+
+  .join a {
+    padding: 15px 74px 17px 74px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
