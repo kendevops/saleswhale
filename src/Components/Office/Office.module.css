@@ -36,7 +36,7 @@
 /* Inner Card Styling */
 .cardDetails {
   width: 528px;
-  margin-right: 80px;
+  margin: 0 40px;
   text-align: center;
   background: #ffffff;
   border: 1px solid #e5e5e5;
