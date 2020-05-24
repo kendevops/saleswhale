@@ -96,3 +96,66 @@
 }
 
 /* End of Text and Join a Team styling */
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 49px 69px;
+  }
+
+  .heading {
+    padding-top: 0;
+  }
+
+  .heading h1 {
+    margin-bottom: 16.58px;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+
+  .heading h3 {
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    padding: 0 100px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 45px 40px 69px 0;
+    /* margin: 0 80px; */
+  }
+
+  .card img {
+    padding: 19px 0;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    line-height: 24px;
+    height: 17px;
+    margin-bottom: 20.99px;
+  }
+
+  .card p {
+    font-size: 16px;
+    height: 127px;
+    padding-top: 10px;
+  }
+
+  .join p {
+    height: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 100px 20px;
+  }
+
+  .join a {
+    padding: 14px 21px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+}
