@@ -47,9 +47,6 @@
   padding: 8px 20px;
   margin-right: 10px;
   text-decoration: none;
-
-  /* Primary Blue */
-
   color: #0688fa;
 }
 
@@ -104,4 +101,44 @@
 
 .phrase p {
   padding-bottom: 40px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 38px 69px;
+  }
+  .nav {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .hero {
+    padding: 0;
+    margin: 22px 0 38px 0;
+  }
+
+  .heroImage {
+    width: 630px;
+    height: 300px;
+  }
+
+  .emphasis {
+    width: 270px;
+    height: 108px;
+    font-size: 27px;
+    line-height: 100%;
+    margin-right: 56px;
+  }
+
+  .phrase {
+    width: 304px;
+    height: 534px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
