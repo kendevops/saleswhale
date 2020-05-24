@@ -152,3 +152,6 @@
     margin: 0 15px 78px 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+}
