@@ -75,3 +75,12 @@
   color: #002240;
 }
 /* End Inner Card Styling */
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .container h1 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+  }
+}
