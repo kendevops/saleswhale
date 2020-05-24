@@ -57,9 +57,6 @@ div .cases {
 
 /* Media Query */
 @media screen and (max-width: 768px) {
-  .container {
-  }
-
   .card {
     padding: 20px 20px 22px 24px;
   }
