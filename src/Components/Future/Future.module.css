@@ -97,10 +97,6 @@ div .cases:hover {
 @media screen and (max-width: 320px) {
   .container {
     padding: 0;
-    border: 2px solid;
-    /* background-image: url("../../img/future.svg");
-    background-repeat: no-repeat;
-    background-position: bottom; */
   }
 
   .card {

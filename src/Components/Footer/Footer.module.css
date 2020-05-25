@@ -161,7 +161,6 @@
   .container {
     flex-direction: column;
     padding: 0 0 0 1.7rem;
-    border: 2px solid;
   }
 
   .container img {
@@ -202,7 +201,6 @@
     align-items: center;
     padding-top: 2.44rem;
     padding-bottom: 2.2rem;
-    border: 2px solid;
   }
   .foot .terms h3 {
     margin-top: 0;
