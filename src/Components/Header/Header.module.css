@@ -50,6 +50,12 @@
   margin-right: 0.63rem;
   text-decoration: none;
   color: #0688fa;
+  transition: background-color 650ms;
+}
+
+.login:hover {
+  background-color: #0688fa;
+  color: #fff;
 }
 
 .demo {
@@ -61,6 +67,13 @@
   text-align: center;
   color: #ffffff;
   margin-right: 1.13rem;
+  transition: background-color 650ms;
+}
+
+.demo:hover {
+  background-color: #fff;
+  color: #0688fa;
+  border: 1px solid #0688fa;
 }
 
 /* End of Nav Design */
