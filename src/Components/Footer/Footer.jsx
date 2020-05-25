@@ -18,7 +18,7 @@ const Footer = () => {
               header="Why Saleswhale"
               item1="Collaborative Intelligence"
               item2="AI Assistant Capabilities"
-              itme3="Customer Stories"
+              item3="Customer Stories"
               item4="Use Case - Technology"
               item5="Use Case - Education"
               item6="Use Case - Events"

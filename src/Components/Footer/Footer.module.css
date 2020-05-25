@@ -156,6 +156,40 @@
 @media screen and (max-width: 320px) {
   .container {
     flex-direction: column;
+    padding: 0 0 0 27px;
+    border: 2px solid;
+  }
+
+  .container img {
+    width: 127.59px;
+    height: 22px;
+    margin-top: 36px;
+    margin-right: 165.41px;
+  }
+
+  .list {
+    width: 123px;
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: 31px;
+    margin-right: 17px;
+  }
+
+  .address {
+    width: 123px;
+    font-size: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .address div {
+    width: 100%;
+  }
+
+  .address .contact {
+    margin-top: 31px;
   }
 
   .foot {
