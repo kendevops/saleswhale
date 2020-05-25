@@ -41,7 +41,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .card {
   width: 100%;
@@ -94,6 +93,13 @@
   font-size: 1.13rem;
   line-height: 1.44rem;
   text-decoration: none;
+  transition: background-color 650ms;
+}
+
+.join a:hover {
+  background-color: #fff;
+  color: #0688fa;
+  border: 1px solid #0688fa;
 }
 
 /* End of Text and Join a Team styling */
