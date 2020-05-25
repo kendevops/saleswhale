@@ -142,3 +142,44 @@
     line-height: 24px;
   }
 }
+
+/* Media Query Mobile */
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 17px 26px;
+  }
+  .logo {
+    width: 127.59px;
+    height: 22px;
+  }
+
+  .hero {
+    margin: 0 0 25px 0;
+  }
+
+  .heroImage {
+    width: 268px;
+    height: 296px;
+  }
+
+  .headerText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emphasis {
+    font-size: 27px;
+    margin-right: 0;
+  }
+
+  .phrase {
+    width: 270px;
+    height: 608px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .phrase p {
+    padding-bottom: 23px;
+  }
+}

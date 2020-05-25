@@ -18,7 +18,7 @@ const Footer = () => {
               header="Why Saleswhale"
               item1="Collaborative Intelligence"
               item2="AI Assistant Capabilities"
-              itme3="Customer Stories"
+              item3="Customer Stories"
               item4="Use Case - Technology"
               item5="Use Case - Education"
               item6="Use Case - Events"
@@ -64,7 +64,9 @@ const Footer = () => {
       </div>
       <div className={Styles.foot}>
         <div className={Styles.terms}>
-          <h3>Privacy Terms</h3>
+          <h3>
+            Privacy <span>Terms</span>
+          </h3>
           <p>© 2020 Saleswhale, Inc. All rights reserved.</p>
         </div>
         <div className={Styles.icons}>

@@ -56,6 +56,7 @@
   background-image: url("../../img/footer_waves.svg");
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .foot .terms h3 {
@@ -76,7 +77,6 @@
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 .social li {
-  display: inline-block;
   margin: 0 15px;
 }
 
@@ -100,4 +100,133 @@
 }
 .social li a:hover {
   color: #11abb0;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 0 0 61.99px;
+  }
+
+  .container img {
+    width: 103.13px;
+    height: 17.95px;
+    margin-top: 51.21px;
+    margin-right: 105.88px;
+  }
+
+  .list {
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 51.21px;
+    margin-right: 50px;
+  }
+
+  .address {
+    margin-left: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .address .contact {
+    margin-top: 51.21px;
+  }
+
+  .foot {
+    padding: 52px;
+  }
+
+  .foot .terms h3 {
+    margin-bottom: 22.56px;
+  }
+
+  .foot .terms p {
+    margin-bottom: 45px;
+  }
+
+  .social {
+    font-size: 20px;
+  }
+
+  .social li {
+    margin: 0 15px 78px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    flex-direction: column;
+    padding: 0 0 0 27px;
+    border: 2px solid;
+  }
+
+  .container img {
+    width: 127.59px;
+    height: 22px;
+    margin-top: 36px;
+    margin-right: 165.41px;
+  }
+
+  .list {
+    width: 123px;
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: 31px;
+    margin-right: 17px;
+  }
+
+  .address {
+    width: 123px;
+    font-size: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .address div {
+    width: 100%;
+  }
+
+  .address .contact {
+    margin-top: 31px;
+  }
+
+  .foot {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 39px;
+    padding-bottom: 35px;
+    border: 2px solid;
+  }
+  .foot .terms h3 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .foot .terms h3 span {
+    display: block;
+    padding-top: 15px;
+  }
+
+  .foot .terms p {
+    width: 272px;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .social {
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .social li {
+    margin: 0;
+    padding: 5px 10px;
+  }
 }
