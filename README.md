@@ -6,4 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Link to Test the Application Live
 
-[Click here]() to see a live demo of the website.
+[Click here](https://sharp-hodgkin-517e19.netlify.app/) to see a live demo of the website.
