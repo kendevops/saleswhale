@@ -198,6 +198,7 @@
     align-items: center;
     padding-top: 39px;
     padding-bottom: 35px;
+    border: 2px solid;
   }
   .foot .terms h3 {
     margin-top: 0;
@@ -205,8 +206,27 @@
     text-align: center;
   }
 
+  .foot .terms h3 span {
+    display: block;
+    padding-top: 15px;
+  }
+
   .foot .terms p {
-    margin-bottom: 0;
-    text-align: center;
+    width: 272px;
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .social {
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .social li {
+    margin: 0;
+    padding: 5px 10px;
   }
 }
