@@ -3,49 +3,51 @@
 .header {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
-  font-size: 18px;
-  padding: 38px 100px;
+  font-size: 1.13rem;
+  padding: 2.4rem 6.25rem;
 }
 
 /* Design for the Nav */
 .navBar {
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.13rem;
+  line-height: 1.44rem;
   font-weight: bold;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 .logo {
-  width: 186px;
-  height: 32px;
+  width: 11.63rem;
+  height: 2rem;
 }
 
 .nav {
   display: flex;
   text-decoration: none;
   list-style: none;
-  padding-top: 8px;
+  padding-top: 0.5rem;
   text-align: center;
   color: #002240;
 }
 
 .list {
-  padding-left: 48px;
+  padding-left: 3rem;
 }
 
 .link {
-  padding: 10px;
+  padding: 0.6rem;
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .login {
   border: 1px solid #0688fa;
   border-radius: 10%;
   text-align: center;
-  padding: 8px 20px;
-  margin-right: 10px;
+  padding: 0.5rem 1.25rem;
+  margin-right: 0.63rem;
   text-decoration: none;
   color: #0688fa;
 }
@@ -53,23 +55,23 @@
 .demo {
   background: #0688fa;
   mix-blend-mode: normal;
-  padding: 8px 30px;
+  padding: 0.5rem 1.9rem;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
   color: #ffffff;
-  margin-right: 18px;
+  margin-right: 1.13rem;
 }
 
 /* End of Nav Design */
 
 /* Hero Image */
 .hero {
-  padding: 60px 0;
+  padding: 3.75rem 0;
 }
 
 .heroImage {
-  border-radius: 10px;
+  border-radius: 0.63rem;
   max-width: 100%;
 }
 
@@ -78,36 +80,37 @@
 /* Header Text Section */
 .headerText {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #002240;
 }
 
 .emphasis {
-  width: 498px;
-  height: 187px;
+  width: 31.13rem;
+  height: 11.7rem;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 62px;
-  margin-right: 118px;
+  font-size: 3.13rem;
+  line-height: 3.9rem;
+  margin-right: 7.4rem;
 }
 
 .phrase {
-  width: 590px;
-  height: 513px;
+  width: 36.9rem;
+  height: 32rem;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.13rem;
+  line-height: 2rem;
 }
 
 .phrase p {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 /* Media Query */
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 38px 69px;
+    padding: 2.4rem 4.3rem;
   }
   .nav {
     display: none;
@@ -119,47 +122,47 @@
 
   .hero {
     padding: 0;
-    margin: 22px 0 38px 0;
+    margin: 1.4rem 0 2.4rem 0;
   }
 
   .heroImage {
-    width: 630px;
-    height: 300px;
+    width: 39.4rem;
+    height: 18.75rem;
   }
 
   .emphasis {
-    width: 270px;
-    height: 108px;
-    font-size: 27px;
+    width: 16.9rem;
+    height: 6.75rem;
+    font-size: 1.7rem;
     line-height: 100%;
-    margin-right: 56px;
+    margin-right: 3.5rem;
   }
 
   .phrase {
-    width: 304px;
-    height: 534px;
-    font-size: 16px;
-    line-height: 24px;
+    width: 19rem;
+    height: 33.4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
 /* Media Query Mobile */
 @media screen and (max-width: 320px) {
   .header {
-    padding: 17px 26px;
+    padding: 1.06rem 1.63rem;
   }
   .logo {
-    width: 127.59px;
-    height: 22px;
+    width: 8rem;
+    height: 1.4rem;
   }
 
   .hero {
-    margin: 0 0 25px 0;
+    margin: 0 0 1.6rem 0;
   }
 
   .heroImage {
-    width: 268px;
-    height: 296px;
+    width: 16.75rem;
+    height: 18.5rem;
   }
 
   .headerText {
@@ -168,18 +171,18 @@
   }
 
   .emphasis {
-    font-size: 27px;
+    font-size: 1.7rem;
     margin-right: 0;
   }
 
   .phrase {
-    width: 270px;
-    height: 608px;
-    font-size: 16px;
-    line-height: 24px;
+    width: 16.9rem;
+    height: 38rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .phrase p {
-    padding-bottom: 23px;
+    padding-bottom: 1.44rem;
   }
 }

@@ -4,7 +4,7 @@
 .container {
   font-family: "Source Sans Pro", sans-serif;
   width: 100%;
-  padding: 110px;
+  padding: 6.9rem;
 }
 
 /* End of Mission Container styling */
@@ -12,22 +12,22 @@
 /* Heading Text Styling */
 .heading {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 
 .heading h1 {
-  margin-bottom: 27px;
+  margin-bottom: 1.9rem;
   font-weight: bold;
-  font-size: 58px;
-  line-height: 62px;
+  font-size: 3.63rem;
+  line-height: 3.9rem;
   color: #002240;
 }
 
 .heading h3 {
-  height: 59px;
+  height: 3.7rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 1.3rem;
   line-height: 181%;
   letter-spacing: 0.01em;
   font-feature-settings: "kern" off;
@@ -41,29 +41,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .card {
   width: 100%;
-  padding: 53px 80px 53px 0;
-  /* margin: 0 80px; */
+  padding: 3.3rem 5rem 3.3rem 0;
+  /* margin: 0 5rem; */
 }
 
 .card img {
-  padding: 18px 0;
+  padding: 1.13rem 0;
 }
 
 .card h2 {
-  font-size: 21px;
-  line-height: 34px;
+  font-size: 1.3rem;
+  line-height: 2.13rem;
   color: #002240;
-  height: 42px;
+  height: 2.63rem;
 }
 
 .card p {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  height: 121px;
+  font-size: 1.13rem;
+  height: 7.6rem;
 }
 
 /* End Culture Component Styling */
@@ -74,11 +75,11 @@
 }
 
 .join p {
-  height: 48px;
-  margin-bottom: 40px;
+  height: 3rem;
+  margin-bottom: 2.5rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 1.3rem;
   line-height: 181%;
   color: #002240;
 }
@@ -88,10 +89,10 @@
   border-radius: 5px;
   color: #ffffff;
   mix-blend-mode: normal;
-  padding: 20px 37px;
+  padding: 1.25rem 2.31rem;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.13rem;
+  line-height: 1.44rem;
   text-decoration: none;
 }
 
@@ -100,7 +101,7 @@
 /* Media Query */
 @media screen and (max-width: 768px) {
   .container {
-    padding: 49px 69px;
+    padding: 3rem 4.3rem;
   }
 
   .heading {
@@ -109,53 +110,53 @@
 
   .heading h1 {
     margin-bottom: 16.58px;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     letter-spacing: -0.01em;
   }
 
   .heading h3 {
-    height: 51px;
-    font-size: 16px;
-    line-height: 24px;
+    height: 3.2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.01em;
-    padding: 0 100px;
+    padding: 0 6.25rem;
   }
 
   .card {
     width: 100%;
-    padding: 45px 40px 69px 0;
-    /* margin: 0 80px; */
+    padding: 45px 2.5rem 4.3rem 0;
+    /* margin: 0 5rem; */
   }
 
   .card img {
-    padding: 19px 0;
+    padding: 1.2rem 0;
   }
 
   .card h2 {
-    font-size: 16px;
-    line-height: 24px;
-    height: 17px;
-    margin-bottom: 20.99px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 1.1rem;
+    margin-bottom: 1.3rem;
   }
 
   .card p {
-    font-size: 16px;
-    height: 127px;
-    padding-top: 10px;
+    font-size: 1rem;
+    height: 7.94rem;
+    padding-top: 0.625rem;
   }
 
   .join p {
     height: 60px;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 100px 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0 6.25rem 1.25rem;
   }
 
   .join a {
-    padding: 14px 21px;
-    font-size: 16px;
-    line-height: 20px;
+    padding: 0.88rem 1.3rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -163,7 +164,7 @@
   .container {
     font-family: "Source Sans Pro", sans-serif;
     width: 100%;
-    padding: 36px 24px;
+    padding: 36px 1.5rem;
     border: 2px solid;
   }
 
@@ -177,14 +178,14 @@
 
   .heading h1 {
     margin-bottom: 7px;
-    font-size: 28px;
-    line-height: 31px;
+    font-size: 1.75rem;
+    line-height: 1.93rem;
   }
 
   .heading h3 {
-    height: 91px;
-    font-size: 16px;
-    line-height: 24px;
+    height: 5.7rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding: 0;
   }
 
@@ -199,22 +200,22 @@
   }
   .card {
     width: 100%;
-    padding: 27px 0 0 0;
+    padding: 1.9rem 0 0 0;
   }
 
   .card img {
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
 
   .card h2 {
-    font-size: 16px;
-    line-height: 24px;
-    height: 17px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 1.1rem;
   }
 
   .card p {
-    font-size: 16px;
-    height: 87px;
+    font-size: 1rem;
+    height: 5.44rem;
     padding-top: 0;
   }
 
@@ -226,15 +227,15 @@
   }
 
   .join p {
-    height: 80px;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 22px 0 20px 0;
+    height: 5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1.4rem 0 1.25rem 0;
   }
 
   .join a {
-    padding: 15px 74px 17px 74px;
-    font-size: 16px;
-    line-height: 20px;
+    padding: 0.94rem 4.6rem 1.1rem 4.6rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 }
