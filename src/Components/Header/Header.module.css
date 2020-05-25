@@ -39,7 +39,6 @@
   padding: 0.6rem;
   font-weight: bold;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .login {
