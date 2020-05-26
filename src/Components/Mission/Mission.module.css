@@ -41,7 +41,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
 }
 .card {
   max-width: 100%;
@@ -59,7 +58,6 @@
   padding-bottom: 3rem;
   color: #002240;
   /* height: 2.63rem; */
-  border: 2px solid;
 }
 
 .card p {
