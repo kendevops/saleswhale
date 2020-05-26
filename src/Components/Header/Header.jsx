@@ -2,7 +2,7 @@
 import React from "react";
 import Styles from "./Header.module.css";
 import image from "../../img/sw-logo-full.png";
-import heroImage from "../../img/hero-img.png";
+// import heroImage from "../../img/hero-img.png";
 
 const Header = () => {
   return (
@@ -26,7 +26,8 @@ const Header = () => {
         </nav>
       </div>
       <div className={Styles.hero}>
-        <img src={heroImage} alt="Painting" className={Styles.heroImage} />
+        {/* <img src={heroImage} alt="Painting" className={Styles.heroImage} /> */}
+        <div className={Styles.heroImage}></div>
       </div>
       <section className={Styles.headerText}>
         <aside className={Styles.emphasis}>

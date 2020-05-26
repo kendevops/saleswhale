@@ -5,10 +5,12 @@
   font-style: normal;
   font-size: 1.13rem;
   padding: 2.4rem 6.25rem;
+  width: 100%;
 }
 
 /* Design for the Nav */
 .navBar {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1.13rem;
@@ -39,6 +41,7 @@
   padding: 0.6rem;
   font-weight: bold;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .login {
@@ -79,12 +82,16 @@
 
 /* Hero Image */
 .hero {
+  border-radius: 0.63rem;
+  max-width: 100%;
   padding: 3.75rem 0;
 }
 
 .heroImage {
+  background-image: url("../../img/hero-img.png");
+  height: 300px;
   border-radius: 0.63rem;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* End Hero Image */
@@ -92,7 +99,6 @@
 /* Header Text Section */
 .headerText {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   color: #002240;
 }
@@ -108,19 +114,19 @@
 
 .phrase {
   width: 36.9rem;
-  height: 32rem;
+  /* height: 32rem; */
   font-weight: normal;
   font-size: 1.13rem;
   line-height: 2rem;
 }
 
 .phrase p {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 /* Media Query */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
   .header {
     padding: 2.4rem 4.3rem;
   }
@@ -135,10 +141,12 @@
   .hero {
     padding: 0;
     margin: 1.4rem 0 2.4rem 0;
+    max-width: 39.4rem;
   }
 
   .heroImage {
-    width: 39.4rem;
+    background-image: url("../../img/hero-medium.png");
+    max-width: 39.4rem;
     height: 18.75rem;
   }
 
@@ -152,7 +160,7 @@
 
   .phrase {
     width: 19rem;
-    height: 33.4rem;
+    /* height: 33.4rem; */
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -163,6 +171,15 @@
   .header {
     padding: 1.06rem 1.63rem;
   }
+
+  .nav {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
   .logo {
     width: 8rem;
     height: 1.4rem;
@@ -173,6 +190,7 @@
   }
 
   .heroImage {
+    background-image: url("../../img/hero-img2.png");
     width: 16.75rem;
     height: 18.5rem;
   }
@@ -183,18 +201,20 @@
   }
 
   .emphasis {
+    width: 16.9rem;
+    line-height: 34px;
     font-size: 1.7rem;
     margin-right: 0;
   }
 
   .phrase {
     width: 16.9rem;
-    height: 38rem;
+    /* height: 38rem; */
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
   .phrase p {
-    padding-bottom: 1.44rem;
+    padding-bottom: 0.44rem;
   }
 }
