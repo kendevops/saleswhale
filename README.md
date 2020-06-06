@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A SalesWhale Project
+This Project was for Saleswhale Company in Singapore
 
 ### Netlify Confirmation Test
 
