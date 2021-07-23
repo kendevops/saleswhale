@@ -8,5 +8,3 @@ This Project was for Saleswhale Company in Singapore
 ### Link to Test the Application Live
 
 [Click here](https://sharp-hodgkin-517e19.netlify.app/) to see a live demo of the website.
-
-[Google](https://google.com).
